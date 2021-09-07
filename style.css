@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #363333;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 50px;
+  color: #ff0000;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: sriracha,cursive;
+  font-weight: 900;
+}
+
+button {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  font-family: sriracha,cursive;
+  font-size: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  color: white;
+  background-color: #414141;
+}
+
+ul, li {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sriracha,cursive;
+  color: #e5b7b7;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+ul, li:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  text-shadow: aqua;
+  color: aqua;
+  outline-color: aqua;
+}
+
+button:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  color: aqua;
+  background-color: black;
+}
+
+h2:hover {
+  color: aqua;
+}
+
+.home-image {
+  opacity: 0.3;
+}
+
+h1 {
+  font-family: sriracha,cursive;
+  color: #ffffff;
+}
+
+p {
+  font-size: 20px;
+  font-family: sriracha,cursive;
+  color: #ffffff;
+  opacity: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.foter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
