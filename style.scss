@@ -5,6 +5,7 @@ body
     background-color: #363333
 }
 h2{
+    // transition: width 2s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,17 +40,34 @@ button
     background-color: rgb(65, 65, 65);
 }
 ul,li{
+    animation: mymove 5s infinite;
+    //  animation-timing-function: linear;
+animation-timing-function: ease;
+//   animation-timing-function: ease-in;
+//  animation-timing-function: ease-out;
+// animation-timing-function: ease-in-out;
+
     margin: auto;
-    width: 50%;
+    // width: 50%;
     // border: px solid rgb(0, 0, 0);
     padding: 10px;
-    align-items: center;
+    position: relative;
+    // align-items: center;
     // margin-left: 250px;
     font-family: sriracha,cursive;
     color: #e5b7b7;
     font-size: 35px;
     font-weight: bolder;
 }
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+
+
+
 ul,li:hover{
     cursor:grab;
     text-shadow: aqua;
@@ -64,6 +82,7 @@ button:hover
 }
 h2:hover
 {
+    width: 100px;
     color: aqua;
 }
 .home-image
